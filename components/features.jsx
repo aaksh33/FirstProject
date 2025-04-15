@@ -1,4 +1,4 @@
-import { Sparkles } from 'lucide-react'
+import { Computer, Sparkles } from 'lucide-react'
 import React from 'react'
 
 
@@ -19,12 +19,12 @@ const Features = () => {
           </div>
         </div>
 
-        <div className=''>
-          <div className='pt-30 text-center border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl'>
+        <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
+        <div className='h-12 w-12 rounded-full bg-white my-2 shadow-xl text-center flex items-center justify-center'><Computer /></div>
             <h1 className='font-bold'>Interactive Learning Roadmaps</h1>
             <p>A structured step-by-step plan with courses, tutorials, and projects.</p>
           </div>
-        </div>
+
         <div className=''>
           <div className='pt-30 text-center border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl'>
             <h1 className='font-bold'>AI-Powered Mentor</h1>
