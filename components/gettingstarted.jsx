@@ -10,7 +10,7 @@ const GettingStarted = () => {
         <div className='lg:w-[65%] py-10 flex flex-col gap-7'>
           <div className='space-y-2'>
             <h1 className='font-bold text-5xl'>
-              Your Future Starts Today
+              Your Future Starts Today!
             </h1>
             <p>Let MentorMind analyze your skills and crafts a roadmap to career success. Join now and stay ahead!</p>
           </div>
