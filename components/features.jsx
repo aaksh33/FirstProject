@@ -1,4 +1,10 @@
-import { Computer, Sparkles } from 'lucide-react'
+import { Computer, Sparkles, } from 'lucide-react'
+import { GiOvermind } from "react-icons/gi";
+import { FaRegMap } from "react-icons/fa";
+import { PiMonitorBold } from "react-icons/pi";
+import { TbDeviceProjector } from "react-icons/tb";
+import { CiMapPin } from "react-icons/ci";
+import { GiGrowth } from "react-icons/gi";
 import React from 'react'
 
 
@@ -12,43 +18,51 @@ const Features = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-7 w-full items-center px-10 sm:px-20 lg:px-28">
 
         <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
-          <div className='h-12 w-12 rounded-full bg-white my-2 shadow-xl text-center flex items-center justify-center'><Sparkles /></div>
+          <div className='h-12 w-12 rounded-full bg-white my-2 shadow-xl text-center flex items-center justify-center'><GiOvermind /></div>
           <div className='space-y-1 text-center pt-2'>
             <h1 className='font-bold'>Smart Skill Finder</h1>
             <p>AI suggests high-demand skills based on your interests & market trends.</p>
           </div>
         </div>
-
         <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
-        <div className='h-12 w-12 rounded-full bg-white my-2 shadow-xl text-center flex items-center justify-center'><Computer /></div>
+          <div className='h-12 w-12 rounded-full bg-white my-2 shadow-xl text-center flex items-center justify-center'><FaRegMap /></div>
+          <div className='space-y-1 text-center pt-2'>
             <h1 className='font-bold'>Interactive Learning Roadmaps</h1>
             <p>A structured step-by-step plan with courses, tutorials, and projects.</p>
           </div>
-
-        <div className=''>
-          <div className='pt-30 text-center border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl'>
+        </div>
+        <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
+          <div className='h-12 w-12 rounded-full bg-white my-5 shadow-xl text-center flex items-center justify-center'><PiMonitorBold /></div>
+          <div className='space-y-1 text-center pt-2'>
             <h1 className='font-bold'>AI-Powered Mentor</h1>
-            <p>Get instant answers to career, skill, and interview-related queries.</p>
+            <p>Get instant answer to career, skill, and interview-related queries.</p>
           </div>
         </div>
-        <div className=''>
-          <div className='pt-30 text-center border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl'>
+        <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
+          <div className='h-12 w-12 rounded-full bg-white my-2 shadow-xl text-center flex items-center justify-center'><TbDeviceProjector /></div>
+          <div className='space-y-1 text-center pt-2'>
             <h1 className='font-bold'>Hands-On Projects</h1>
             <p>Work on industry-relevant challenges to build real-world experience.</p>
           </div>
         </div>
-        <div className=''>
-          <div className='pt-30 text-center border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl'>
+        <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
+          <div className='h-12 w-12 rounded-full bg-white my-5 shadow-xl text-center flex items-center justify-center'><CiMapPin /></div>
+          <div className='space-y-1 text-center pt-2'>
             <h1 className='font-bold'>Live Progress Tracking</h1>
-            <p>Monitor your learning journey, achievements, and certifications.</p>
+            <p>Monitor your learning journeys, achievements, and certifications.</p>
           </div>
-        </div >
-        <div className=''>
-          <div className='pt-36 text-center border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl'>
+        </div>
+        <div className='border-blue border-1 rounded-2xl bg-blue-50 drop-shadow-2xl flex flex-col items-center p-4'>
+          <div className='h-12 w-12 rounded-full bg-white my-5 shadow-xl text-center flex items-center justify-center'><GiGrowth /></div>
+          <div className='space-y-1 text-center pt-2'>
             <h1 className='font-bold'>Career Growth Insights</h1>
             <p>Get job trends, salary insights, and expert guidance.</p>
           </div>
         </div>
+
+        
+
+        
 
       </div>
 

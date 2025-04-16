@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Features from "@/components/features";
 import GettingStarted from "@/components/gettingstarted";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
    <About/>
    <Features/>
    <GettingStarted/>
+   <Footer/>
    </>
   );
 }
