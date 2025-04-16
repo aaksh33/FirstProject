@@ -7,7 +7,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { IoMailOpenOutline } from "react-icons/io5";
 import Link from 'next/link';
 
-const Footer = () => {
+
+export default function Footer(){
   return (
     <div className='' id='getting-started'>
       <div className='w-full h-full flex flex-col md:flex-row justify-between bg-green-100 px-10'>
@@ -51,5 +52,3 @@ const Footer = () => {
 
   )
 }
-
-export default Footer
