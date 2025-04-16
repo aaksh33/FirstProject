@@ -10,7 +10,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div id="features" className=' w-full h-full py-10'>
+    <section id="features" className=' w-full h-full py-10'>
       <div className='text-center pb-10'>
         <h1 className="text-4xl font-bold">Your AI-Powered Career Accelerator</h1>
         <p>Mentormind is built to guide, mentor, and empower you with the best career resources.</p>
@@ -67,7 +67,7 @@ const Features = () => {
       </div>
 
 
-    </div>
+    </section>
   )
 }
 

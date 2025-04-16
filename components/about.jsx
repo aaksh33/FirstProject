@@ -5,7 +5,7 @@ import { IoBookOutline } from "react-icons/io5"
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-full flex flex-col md:flex-row items-center justify-center py-16 px-6 bg-white">
+    <section id="about" className="w-full h-full flex flex-col md:flex-row items-center justify-center py-16 px-6 bg-white">
       <div className="lg:w-1/2 w-full flex justify-center mb-10 md:mb-0">
         <Image
           src="/about-image.svg"
@@ -64,7 +64,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

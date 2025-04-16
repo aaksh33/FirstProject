@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='flex justify-between items-center py-2 px-5 sm:px-8 md:px-12 lg:px-18 w-full'>
+            <nav className='flex justify-between items-center py-2 px-5 sm:px-8 md:px-12 lg:px-18 w-full'>
                 <div className='flex items-center gap-3'>
                     <Image height={200} width={200} alt='logo' className='' src="/logo-ltr-dark.png" />
                     {/* <h1 className='text-2xl text-green-800'>Mentor Mind</h1> */}
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </div>
 
 
-            </div>
+            </nav>
         </>
     )
 }

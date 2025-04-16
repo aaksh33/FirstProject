@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 export default function Footer(){
   return (
-    <div className='' id='getting-started'>
+    <section className='' id='getting-started'>
       <div className='w-full h-full flex flex-col md:flex-row justify-between bg-green-100 px-10'>
 
         <div className=' h-40 '>
@@ -48,7 +48,7 @@ export default function Footer(){
           <div className='text-3xl'><IoMailOpenOutline /></div>
         </div>
       </div>
-    </div>
+    </section>
 
   )
 }

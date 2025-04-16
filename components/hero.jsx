@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div id='home' className='relative h-full w-full py-48 overflow-hidden'>
+    <section id='home' className='relative h-full w-full py-48 overflow-hidden'>
     {/* Background Image */}
     <Image
       src='/hero-bg.svg'
@@ -28,7 +28,7 @@ const Hero = () => {
         </Button>
       </div>
     </div>
-  </div>
+  </section>
   
   )
 }
