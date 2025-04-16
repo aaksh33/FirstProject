@@ -9,13 +9,13 @@ import { IoMailOpenOutline } from "react-icons/io5";
 const Footer = () => {
   return (
     <div className='' id='getting-started'>
-      <div className='w-full h-full flex justify-between bg-green-100 px-10'>
+      <div className='w-full h-full flex flex-col md:flex-row justify-between bg-green-100 px-10'>
 
         <div className=' h-40 '>
           <Image height={200} width={250} alt='logo' className='pt-12 ' src="/logo-ltr-dark.png" />
         </div>
         <div className='py-6 flex items-center gap-10'>
-          <div className='grid sm:grid-cols-1 lg:grid-cols-2 items-center gap-3'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-3'>
             <h1>Home</h1>
             <h1>About</h1>
             <h1>Features</h1>
@@ -33,11 +33,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='flex items-center bg-green-100 border-t border-gray-300'>
-        <h1 className='w-[82%] pl-8'>
+      <div className='flex items-center justify-between px-3 bg-green-100 border-t border-gray-300'>
+        <h1 className=''>
           @ Mentor Mind 2025 | All Rights Reserved
         </h1 >
-        <div className='flex items-center justify-between w-[18%] m-4 pr-4'>
+        <div className='flex items-center justify-between gap-1 sm:gap-3 p-4'>
           <div className='text-3xl'><FiTwitter /></div>
           <div className='text-3xl'><LuFacebook /></div>
           <div className='text-3xl'><FaInstagram /></div>
