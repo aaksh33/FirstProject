@@ -5,6 +5,7 @@ import { LuFacebook } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { IoMailOpenOutline } from "react-icons/io5";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -16,10 +17,10 @@ const Footer = () => {
         </div>
         <div className='py-6 flex items-center gap-10'>
           <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-3'>
-            <h1>Home</h1>
-            <h1>About</h1>
-            <h1>Features</h1>
-            <h1>Getting Started</h1>
+            <Link href='#home'>Home</Link>
+            <Link href='#about'>About</Link>
+            <Link href='#features'>Features</Link>
+            <Link href='#getting-started'>Getting Started</Link>
           </div>
 
           <div className='bg-gray-300 h-16 w-[2px] rounded-md'></div>
